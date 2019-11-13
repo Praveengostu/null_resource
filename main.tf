@@ -1,5 +1,5 @@
 resource "null_resource" "bucket" {
   provisioner "local-exec" {
-    command = "ibmcloud ks"
+    command = "ibmcloud cs"
     }
    }
